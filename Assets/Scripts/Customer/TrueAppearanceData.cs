@@ -27,9 +27,30 @@ public class TrueAppearanceData
       
    }
 
-   public void ApplyMonsterTraitOverrides(float skinOpacity =1f, float eyeGlow = 0f, bool sharpTeeth = false, bool pointyEars = false)
+   public void ApplyMonsterTraitOverrides(MonsterData monsterData)
    {
-     //for loop through contents of monster SO and if matching trait parameter override it here
+     foreach(var trait in monsterData.traits)
+     {
+        switch (trait)
+        {
+           case MonsterTraits.EyeGlow:
+            _eyeGlow = monsterData.EyeGlow;
+              break;
+           case MonsterTraits.SharpTeeth:
+            _sharpTeeth = monsterData.SharpTeeth;
+              break;
+           case MonsterTraits.SkinOpacity:
+              _skinOpacity = monsterData.SkinOpacity;
+              break;
+           case MonsterTraits.PointyEars:
+              _pointyEars = monsterData.PointyEars;
+              break;
+           default:
+              Debug.LogError("Unknown monster trait: " + trait);
+              break;
+              
+        }
+     }
    }
    
    //Human traits
@@ -62,22 +83,18 @@ public class TrueAppearanceData
    public float EyeGlow
    {
       get { return _eyeGlow; }
-      set { _eyeGlow = value; }
    }
    
    public bool SharpTeeth
    {
       get { return _sharpTeeth; }
-      set { _sharpTeeth = value; }
    }
    public float SkinOpacity
    {
       get { return _skinOpacity; }
-      set { _skinOpacity = value; }
    }
    public bool PointyEars
    {
       get { return _pointyEars; }
-      set { _pointyEars = value; }
    }
 }
