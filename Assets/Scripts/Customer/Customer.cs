@@ -14,7 +14,7 @@ public class Customer : MonoBehaviour
     
     public TrueAppearanceData AppearanceData => _appearanceData;
 
-   
+   public Material customerBodyMaterial;
     
     
     
@@ -24,8 +24,13 @@ public class Customer : MonoBehaviour
        _appearanceData = appearanceData;
        _isMonster = monsterData != null;
        
+       CreateCustomerVisuals(appearanceData,monsterData);
     }
-    
+
+    private void CreateCustomerVisuals(TrueAppearanceData appearanceData, MonsterData monsterData)
+    {
+        customerBodyMaterial.color = appearanceData.SkinColor;
+    }
 
 
 }

@@ -1425,6 +1425,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomerSpawner
   customerPrefab: {fileID: 345447689784093836, guid: fc0e96f6f5e0ea44ebca5138b9b7aedf, type: 3}
+  monsterDatas: []
+  hairColors: []
+  eyeColors: []
+  skinColors: []
+  names: []
 --- !u!4 &949475827
 Transform:
   m_ObjectHideFlags: 0
