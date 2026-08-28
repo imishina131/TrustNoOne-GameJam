@@ -7,7 +7,7 @@ public class TrueAppearanceData
    private Color _hairColor;
    private Color _skinColor;
    private string _customerName;
-   private int _customerHeight;
+   private float _customerHeight;
    
    //Monster specific traits
    private float _eyeGlow;
@@ -74,7 +74,7 @@ public class TrueAppearanceData
       get { return _customerName; }
    }
 
-   public int CustomerHeight
+   public float CustomerHeight
    {
       get { return _customerHeight; }
    }

@@ -6,10 +6,10 @@ public class IDData
     private Color _hairColor;
     private Color _skinColor;
     private string _customerName;
-    private int _customerHeight;
+    private float _customerHeight;
 
 
-    public IDData(Color eyeColor, Color hairColor, Color skinColor, string customerName,  int customerHeight)
+    public IDData(Color eyeColor, Color hairColor, Color skinColor, string customerName,  float customerHeight)
     {
         EyeColor = eyeColor;
         HairColor = hairColor;
@@ -39,7 +39,7 @@ public class IDData
         get { return _customerName; }
         private set { _customerName = value; }
     }
-    public int CustomerHeight
+    public float CustomerHeight
     {
         get { return _customerHeight; }
         private set { _customerHeight = value; }
