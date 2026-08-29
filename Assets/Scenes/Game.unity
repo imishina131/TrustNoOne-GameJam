@@ -263,17 +263,18 @@ Transform:
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1183170312155747415}
   - {fileID: 617311522828790785}
+  - {fileID: 7029823561840255687}
+  - {fileID: 7601585813831215607}
+  - {fileID: 1183170312155747415}
   - {fileID: 22512771189332927}
   - {fileID: 8425766967186278004}
-  - {fileID: 7029823561840255687}
   - {fileID: 6138220475695097172}
-  - {fileID: 7601585813831215607}
   - {fileID: 8593911314325677141}
   - {fileID: 1722310811766550402}
   - {fileID: 7876627434579200808}
   - {fileID: 5858800120832479592}
+  - {fileID: 214420395}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180089334
@@ -388,6 +389,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180089334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &214420394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214420395}
+  - component: {fileID: 214420396}
+  m_Layer: 0
+  m_Name: DrinkMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214420395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214420394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 132589279}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &214420396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214420394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7061e46e6cd2874c8114de2d47793bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkMaker
 --- !u!1001 &335757844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2386,6 +2431,7 @@ GameObject:
   - component: {fileID: 6640501302929207089}
   - component: {fileID: 6403284094670987607}
   - component: {fileID: 8593911314325677142}
+  - component: {fileID: 8593911314325677143}
   m_Layer: 0
   m_Name: RumBottle.001
   m_TagString: Selectable
@@ -3297,6 +3343,7 @@ GameObject:
   - component: {fileID: 1427244866320156065}
   - component: {fileID: 1402297529610732821}
   - component: {fileID: 7029823561840255688}
+  - component: {fileID: 7029823561840255689}
   m_Layer: 0
   m_Name: MartiniGlass.001
   m_TagString: Selectable
@@ -3455,6 +3502,7 @@ GameObject:
   - component: {fileID: 588698210077035085}
   - component: {fileID: 2678832968279335605}
   - component: {fileID: 7601585813831215608}
+  - component: {fileID: 7601585813831215609}
   m_Layer: 0
   m_Name: RockslLass.001
   m_TagString: Selectable
@@ -3721,6 +3769,7 @@ GameObject:
   - component: {fileID: 2831359031276052271}
   - component: {fileID: 903263215248573581}
   - component: {fileID: 6138220475695097173}
+  - component: {fileID: 6138220475695097174}
   m_Layer: 0
   m_Name: PineappleJuiceBottle.001
   m_TagString: Selectable
@@ -3771,6 +3820,7 @@ GameObject:
   - component: {fileID: 8310155835683133756}
   - component: {fileID: 3131169622952900389}
   - component: {fileID: 8310155835683133757}
+  - component: {fileID: 8310155835683133758}
   m_Layer: 0
   m_Name: VodkaBottle.001
   m_TagString: Selectable
@@ -3990,6 +4040,7 @@ GameObject:
   - component: {fileID: 7038692459793696554}
   - component: {fileID: 3627197628501897260}
   - component: {fileID: 8425766967186278005}
+  - component: {fileID: 8425766967186278006}
   m_Layer: 0
   m_Name: GinBottle.001
   m_TagString: Selectable
@@ -4185,6 +4236,7 @@ GameObject:
   - component: {fileID: 4582123768221409552}
   - component: {fileID: 2372433302512938535}
   - component: {fileID: 6017609569996657367}
+  - component: {fileID: 6017609569996657368}
   m_Layer: 0
   m_Name: WhiskeyBottle.001
   m_TagString: Selectable
@@ -4214,6 +4266,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5686998263401254959, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &6017609569996657368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6017609569996657366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 7
+  amountOZ: 1
 --- !u!1 &6050567269473400742
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,6 +4318,7 @@ GameObject:
   - component: {fileID: 7986202257305337156}
   - component: {fileID: 1201574363278819530}
   - component: {fileID: 7986202257305337157}
+  - component: {fileID: 7986202257305337158}
   m_Layer: 0
   m_Name: TripleSecBottle.001
   m_TagString: Selectable
@@ -4345,6 +4412,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -21331718182212629, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &6138220475695097174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4647413330043536861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 3
+  amountOZ: 1
 --- !u!23 &6379880075062856912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4613,6 +4694,7 @@ GameObject:
   - component: {fileID: 1614140597308590896}
   - component: {fileID: 1026649439624124505}
   - component: {fileID: 6847528008750376191}
+  - component: {fileID: 6847528008750376192}
   m_Layer: 0
   m_Name: CranberryJuiceBottle.001
   m_TagString: Selectable
@@ -4642,6 +4724,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3278006516406197776, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &6847528008750376192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6847528008750376190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 1
+  amountOZ: 1
 --- !u!1 &6869666536559741107
 GameObject:
   m_ObjectHideFlags: 0
@@ -4702,6 +4798,7 @@ GameObject:
   - component: {fileID: 2272900551909559218}
   - component: {fileID: 393517975483674271}
   - component: {fileID: 6989673253716884829}
+  - component: {fileID: 6989673253716884830}
   m_Layer: 0
   m_Name: CollinsGlass.001
   m_TagString: Selectable
@@ -4731,6 +4828,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3990676459784001185, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &6989673253716884830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6989673253716884828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cup
+  maxLiquid: 3
 --- !u!4 &7029823561840255687
 Transform:
   m_ObjectHideFlags: 0
@@ -4768,6 +4878,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -977687621766165665, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &7029823561840255689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3293683246668368212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cup
+  maxLiquid: 3
 --- !u!1 &7033766742327737800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,6 +5139,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3763396956422112040, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &7601585813831215609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3687088275285733118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cup
+  maxLiquid: 3
 --- !u!1 &7745760243335946437
 GameObject:
   m_ObjectHideFlags: 0
@@ -5079,6 +5215,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4264010730153503859, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &7986202257305337158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101147160401718898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 5
+  amountOZ: 1
 --- !u!33 &8026124858290161509
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5235,6 +5385,7 @@ GameObject:
   - component: {fileID: 2073062762407744832}
   - component: {fileID: 6462918959920867264}
   - component: {fileID: 8266785919730558139}
+  - component: {fileID: 8266785919730558140}
   m_Layer: 0
   m_Name: BourbonBottle.001
   m_TagString: Selectable
@@ -5264,6 +5415,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3973822821160135938, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &8266785919730558140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266785919730558138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 0
+  amountOZ: 1
 --- !u!33 &8310155835683133756
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5294,6 +5459,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8450338733027275439, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &8310155835683133758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164492916120663072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 6
+  amountOZ: 1
 --- !u!4 &8394061407408224458
 Transform:
   m_ObjectHideFlags: 0
@@ -5346,6 +5525,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2908149429607870160, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &8425766967186278006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761805524968960903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 2
+  amountOZ: 1
 --- !u!1001 &8470858778810832732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5455,6 +5648,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -425172344387586111, guid: 6882e8100b148b0498d3c408c31c348a, type: 3}
+--- !u!114 &8593911314325677143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288669807269788423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e516dc1328e93448a289c7dec01bd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleInteractable
+  ingredient: 4
+  amountOZ: 1
 --- !u!23 &8739284167658614503
 MeshRenderer:
   m_ObjectHideFlags: 0

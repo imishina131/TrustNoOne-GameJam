@@ -57,6 +57,20 @@ public class OutlineSelection : MonoBehaviour
                 selection = raycastHit.transform;
                 selection.gameObject.GetComponent<Outline>().enabled = true;
                 highlight = null;
+
+                Cup cup = selection.GetComponent<Cup>();
+
+                BottleInteractable bottle = selection.GetComponent<BottleInteractable>();
+
+                if (cup != null)
+                {
+                    DrinkMaker.Instance.SelectCup(cup);
+                }
+
+                if(bottle != null)
+                {
+                    bottle.Pour();
+                }
             }
             else
             {

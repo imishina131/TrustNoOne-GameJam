@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OutlineSelection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\drinkcreation\\cup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkcreation\\cup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\drinkcreation\\drinkmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkcreation\\drinkmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\drinkcreation\\bottleinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkcreation\\bottleinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DrinkCreation\\Ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Cup.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Cup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Cup.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Cup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkCreation\\Cup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T02:53:37.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DrinkMaker.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T02:36:23.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BottleInteractable.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:59:47.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OutlineSelection.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OutlineSelection.cs",
               "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs",
               "RelativeToolTip": "Assets\\Scripts\\OutlineSelection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wEcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T18:38:01.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ingredients.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T00:55:09.067Z",
               "EditorCaption": ""
             }
           ]
