@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private CustomerSpawner spawner;
     [SerializeField] private int totalCustomers = 5;
+
+    [SerializeField] private CustomerDisplayInformation displayUI;
     private int _customersServed = 0;
     private Customer _currentCustomer;
 
@@ -18,12 +20,16 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        //SetCurrentCustomer(spawner.SpawnCustomer());
+        SetCurrentCustomer(spawner.SpawnCustomer());
+        displayUI.DisplayCustomerInfo(_currentCustomer);
         anim = GetComponent<Animator>();
     }
     public void SetCurrentCustomer(Customer customer)
     {
+        Debug.Log(customer);
         _currentCustomer = customer;
+        displayUI.DisplayCustomerInfo(customer);
+
     }
 
     public void OnBigRedButtonPressed()

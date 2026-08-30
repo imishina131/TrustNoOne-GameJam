@@ -14,7 +14,7 @@ public class Customer : MonoBehaviour
     
     public void InitializeCustomer(CustomerPreset preset ,Recipe recipe)
     {
-        _preset = _preset;
+        _preset = preset;
         _recipe = recipe;
     }
 
