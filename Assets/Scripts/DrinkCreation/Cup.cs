@@ -44,9 +44,11 @@ public class Cup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if(liquidAmountInCup >= maxLiquid)
         {
             doneButton.SetActive(true);
         }
+        */
     }
 }
