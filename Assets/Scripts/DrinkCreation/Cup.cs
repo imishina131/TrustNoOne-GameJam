@@ -5,9 +5,14 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class Cup : MonoBehaviour
 {
-    private float liquidAmountInCup = 0f;
-    [SerializeField] private float maxLiquid = 3f;
+    public float liquidAmountInCup = 0f;
+    public float maxLiquid = 3f;
+
+    public CupType cupType;
     private Dictionary<Ingredients, float> ingredients = new Dictionary<Ingredients, float>();
+
+    [SerializeField] private GameObject doneButton;
+
 
     public void AddIngredient(Ingredients ingredient,float amount)
     {
@@ -16,7 +21,7 @@ public class Cup : MonoBehaviour
             ingredients[ingredient] += amount;
             //liquidAmountInCup += amount;
         }
-        else if(liquidAmountInCup <= (maxLiquid -= 1))
+        else if(liquidAmountInCup <= maxLiquid)
         {
             ingredients.Add(ingredient, amount);
             liquidAmountInCup += amount;
@@ -33,12 +38,15 @@ public class Cup : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        maxLiquid = maxLiquid -= 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(liquidAmountInCup >= maxLiquid)
+        {
+            doneButton.SetActive(true);
+        }
     }
 }
