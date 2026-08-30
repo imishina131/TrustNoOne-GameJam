@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df89065330ac0b4489f7983556435f5e, type: 3}
-  m_Name: Male
+  m_Name: Vampire_Male
   m_EditorClassIdentifier: Assembly-CSharp::CustomerPreset
-  customerPrefab: {fileID: 7478225697116208144, guid: 6fb37f825ee63264b9c2600bf1a52006, type: 3}
-  customerID: {fileID: 21300000, guid: bd87d66a1b3e8654a8780ae003de7910, type: 3}
-  isMonster: 0
+  customerPrefab: {fileID: 6825157808319640915, guid: 21e89fe25586c8747a358a0b5d82e4cf, type: 3}
+  customerID: {fileID: 21300000, guid: b58a9be1e200d0d46a3a08474fd73a21, type: 3}
+  isMonster: 1

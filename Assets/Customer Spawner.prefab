@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5399521428675283805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9068973520204861282}
+  - component: {fileID: 4633820390346952303}
+  m_Layer: 0
+  m_Name: Customer Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9068973520204861282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399521428675283805}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.23, y: -0.19, z: 1.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4633820390346952303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399521428675283805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72bac9f5ca342d44b598dbb5ff7125e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CustomerSpawner
+  customerSets:
+  - {fileID: 11400000, guid: d64091895a127f74ea842c54f74f659a, type: 2}
+  - {fileID: 11400000, guid: 3f8dcd85b64a3824a99685c0074ed13f, type: 2}
+  monsterSets:
+  - {fileID: 11400000, guid: 3b4519578a47d40488ef84c7328c7cab, type: 2}
+  - {fileID: 11400000, guid: c7040f8602a522a428f4e2779848f836, type: 2}
+  - {fileID: 11400000, guid: 5e5610ab94d2f1840a71484af608166d, type: 2}
+  - {fileID: 11400000, guid: e0e9bdd2653e0f6499913d3654172d14, type: 2}
+  normalRecipes:
+  - {fileID: 11400000, guid: 0abb366cdfd8f5b4195b36b293cb7f5c, type: 2}
+  - {fileID: 11400000, guid: b29453bcf1d45204aaca62fe7ad5018d, type: 2}
+  - {fileID: 11400000, guid: cdafabeed882e1b46b2397ad255a64a0, type: 2}
+  - {fileID: 11400000, guid: 1bb57ff260abd4844b64852e175af19c, type: 2}
+  - {fileID: 11400000, guid: 026189a3bd64b2147bef9f0795d9ea7d, type: 2}
+  monsterRecipes:
+  - {fileID: 11400000, guid: c81206ffd04000f489630c99aaf805fd, type: 2}
+  - {fileID: 11400000, guid: d53f0610e5c259043baa7a60105fc168, type: 2}
+  - {fileID: 11400000, guid: 5c0efa31087c67342a407d1b01c5e77c, type: 2}
+  - {fileID: 11400000, guid: 6873057fe35c4244084420d3db822f44, type: 2}
+  - {fileID: 11400000, guid: 3e9d31e7b5b953d4eaef76bfc3ae6308, type: 2}
