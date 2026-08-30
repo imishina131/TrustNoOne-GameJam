@@ -9,7 +9,7 @@ public class Cup : MonoBehaviour
     public float maxLiquid = 3f;
 
     public CupType cupType;
-    private Dictionary<Ingredients, float> ingredients = new Dictionary<Ingredients, float>();
+    public Dictionary<Ingredients, float> ingredients = new Dictionary<Ingredients, float>();
 
     [SerializeField] private GameObject doneButton;
 

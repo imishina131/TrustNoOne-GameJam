@@ -6,11 +6,16 @@ public class Customer : MonoBehaviour
     
     public CustomerPreset Preset => _preset;
     
+    private Recipe _recipe;
+    
+    public Recipe Recipe => _recipe;
+    
     public bool IsMonster => _preset.isMonster;
     
-    public void InitializeCustomer(CustomerPreset preset)
+    public void InitializeCustomer(CustomerPreset preset ,Recipe recipe)
     {
         _preset = _preset;
+        _recipe = recipe;
     }
 
    
