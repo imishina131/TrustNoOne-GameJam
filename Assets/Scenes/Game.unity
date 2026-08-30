@@ -799,11 +799,6 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!1 &127110032 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2b549f17d12ad794482772a4277737f7, type: 3}
-  m_PrefabInstance: {fileID: 335757844}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132589278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,9 +1002,9 @@ MonoBehaviour:
   spawner: {fileID: 1684369304}
   totalCustomers: 5
   displayUI: {fileID: 409336890}
-  glass01: {fileID: 764594446}
-  glass02: {fileID: 127110032}
-  glass03: {fileID: 1629161723}
+  glass01: {fileID: 678102956}
+  glass02: {fileID: 1765467185}
+  glass03: {fileID: 1675001725}
   drinkMaker: {fileID: 214420396}
 --- !u!4 &177192434
 Transform:
@@ -1339,6 +1334,8 @@ MonoBehaviour:
   rocksCup: {fileID: 1675001725}
   martiniCup: {fileID: 1765467185}
   collinsCup: {fileID: 678102956}
+  outline: {fileID: 2091244943}
+  isSelected: 0
 --- !u!1001 &293057717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3829,11 +3826,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746880486}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &764594446 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 25a51f3a1420e9e4b9d99ef37656d48f, type: 3}
-  m_PrefabInstance: {fileID: 2105774786}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &767728959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7858,11 +7850,6 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!1 &1629161723 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c26bf049bc672eb4f9f1b252302848b8, type: 3}
-  m_PrefabInstance: {fileID: 1241127859}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1630991675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9453,6 +9440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OutlineSelection
   gameManager: {fileID: 177192433}
+  cup: {fileID: 0}
 --- !u!4 &2091244944
 Transform:
   m_ObjectHideFlags: 0

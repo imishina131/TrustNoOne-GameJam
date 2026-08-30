@@ -9,7 +9,8 @@ public class DrinkMaker : MonoBehaviour
     [SerializeField] private GameObject martiniCup;
     [SerializeField] private GameObject collinsCup;
 
-    private bool isSelected = false;
+    [SerializeField] private OutlineSelection outline;
+    public bool isSelected = false;
 
     void Awake()
     {
@@ -32,6 +33,7 @@ public class DrinkMaker : MonoBehaviour
         if(!isSelected)
         {
             selectedCup = cup;
+            Debug.Log("Selected cup: " + cup.name);
 
             if (selectedCup.cupType == CupType.Martini)
             {
@@ -49,7 +51,6 @@ public class DrinkMaker : MonoBehaviour
             isSelected = true;
         }
 
-        Debug.Log("Selected cup: " + cup.name);
     }
 
     public void PourLiquid(Ingredients ingredient, float amount)
@@ -65,6 +66,7 @@ public class DrinkMaker : MonoBehaviour
 
     public void RestartDrink()
     {
+        outline.cup = null;
         selectedCup = null;
         isSelected = false;
         martiniCup.SetActive(false);

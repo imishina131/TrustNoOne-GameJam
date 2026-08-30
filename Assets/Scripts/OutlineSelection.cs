@@ -8,6 +8,8 @@ public class OutlineSelection : MonoBehaviour
     private RaycastHit raycastHit;
 
     public GameManager gameManager;
+
+    public Cup cup;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -65,7 +67,7 @@ public class OutlineSelection : MonoBehaviour
                     gameManager.OnBigRedButtonPressed();
                 }
 
-                Cup cup = selection.GetComponent<Cup>();
+                cup = selection.GetComponent<Cup>();
 
                 BottleInteractable bottle = selection.GetComponent<BottleInteractable>();
 

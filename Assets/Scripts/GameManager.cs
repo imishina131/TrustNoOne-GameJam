@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator OnServerDrink(Cup cup)
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(12);
         bool recipeCorrect = DrinkComparison.IsCorrectDrink(cup, _currentCustomer.Recipe);
         
         if (_currentCustomer.IsMonster)
@@ -66,6 +66,8 @@ public class GameManager : MonoBehaviour
             Debug.Log("Correct recipe!");
             NextCustomer();
         }
+
+        drinkMaker.isSelected = false;
         glass01.SetActive(false);
         glass02.SetActive(false);
         glass03.SetActive(false);
