@@ -944,6 +944,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   spawner: {fileID: 0}
   totalCustomers: 5
+  glass01: {fileID: 678102956}
+  glass02: {fileID: 1765467185}
+  glass03: {fileID: 1675001725}
+  drinkMaker: {fileID: 214420396}
 --- !u!4 &177192434
 Transform:
   m_ObjectHideFlags: 0
@@ -2845,30 +2849,13 @@ GameObject:
   - component: {fileID: 678102960}
   - component: {fileID: 678102959}
   - component: {fileID: 678102958}
-  - component: {fileID: 678102957}
   m_Layer: 0
   m_Name: CollinsGlass.001 (1)
-  m_TagString: Selectable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &678102957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 678102956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cup
-  liquidAmountInCup: 0
-  maxLiquid: 3
-  cupType: 1
-  doneButton: {fileID: 0}
 --- !u!64 &678102958
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4984,11 +4971,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 177192433}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: OnServerDrink
-        m_Mode: 2
+        m_MethodName: Serve
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: Cup, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7901,30 +7888,13 @@ GameObject:
   - component: {fileID: 1675001729}
   - component: {fileID: 1675001728}
   - component: {fileID: 1675001727}
-  - component: {fileID: 1675001726}
   m_Layer: 0
   m_Name: RockslLass.001 (1)
-  m_TagString: Selectable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1675001726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675001725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cup
-  liquidAmountInCup: 0
-  maxLiquid: 3
-  cupType: 2
-  doneButton: {fileID: 0}
 --- !u!64 &1675001727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8343,30 +8313,13 @@ GameObject:
   - component: {fileID: 1765467189}
   - component: {fileID: 1765467188}
   - component: {fileID: 1765467187}
-  - component: {fileID: 1765467186}
   m_Layer: 0
   m_Name: MartiniGlass.001 (1)
-  m_TagString: Selectable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1765467186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765467185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1f888d1fd0cb2d4dae32129a1c2a4fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Cup
-  liquidAmountInCup: 0
-  maxLiquid: 3
-  cupType: 0
-  doneButton: {fileID: 0}
 --- !u!64 &1765467187
 MeshCollider:
   m_ObjectHideFlags: 0

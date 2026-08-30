@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,9 +8,18 @@ public class GameManager : MonoBehaviour
     private int _customersServed = 0;
     private Customer _currentCustomer;
 
+    private Animator anim;
+
+    [SerializeField] GameObject glass01;
+    [SerializeField] GameObject glass02;
+    [SerializeField] GameObject glass03;
+
+    public DrinkMaker drinkMaker;
+
     private void Start()
     {
         //SetCurrentCustomer(spawner.SpawnCustomer());
+        anim = GetComponent<Animator>();
     }
     public void SetCurrentCustomer(Customer customer)
     {
@@ -30,8 +40,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void OnServerDrink(Cup cup)
+    public IEnumerator OnServerDrink(Cup cup)
     {
+        yield return new WaitForSeconds(10);
         bool recipeCorrect = DrinkComparison.IsCorrectDrink(cup, _currentCustomer.Recipe);
         
         if (_currentCustomer.IsMonster)
@@ -49,6 +60,12 @@ public class GameManager : MonoBehaviour
             Debug.Log("Correct recipe!");
             NextCustomer();
         }
+        glass01.SetActive(false);
+        glass02.SetActive(false);
+        glass03.SetActive(false);
+
+        DrinkMaker.Instance.selectedCup = null;
+
     }
 
     private void NextCustomer()
@@ -77,5 +94,11 @@ public class GameManager : MonoBehaviour
         Debug.Log("Win Game");
         
         //Load new scene
+    }
+
+    public void Serve()
+    {
+        anim.SetTrigger("Make");
+        StartCoroutine(OnServerDrink(drinkMaker.selectedCup));
     }
 }
