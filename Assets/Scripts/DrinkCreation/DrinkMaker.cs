@@ -63,4 +63,13 @@ public class DrinkMaker : MonoBehaviour
         selectedCup.AddIngredient(ingredient, amount);
     }
 
+    public void RestartDrink()
+    {
+        selectedCup = null;
+        isSelected = false;
+        martiniCup.SetActive(false);
+        rocksCup.SetActive(false);
+        collinsCup.SetActive(false);
+    }
+
 }

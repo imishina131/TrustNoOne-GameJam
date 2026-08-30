@@ -3,5 +3,6 @@ using UnityEngine;
 public enum Recipe04
 {
     Whiskey_1,
-    CranberryJuice_2
+    CranberryJuice_2,
+    Rocks
 }
