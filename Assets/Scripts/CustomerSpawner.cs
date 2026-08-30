@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class CustomerSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject customerPrefab;
-    [SerializeField] private MonsterData[] monsterDatas;
-    [SerializeField] private Color[] hairColors;
-    [SerializeField] private Color[] eyeColors;
-    [SerializeField] private Color[] skinColors;
-    [SerializeField] private string[] names;
-
-    private float height;
-   
+    
+    [SerializeField] private CustomerPreset[] customerSets;
+    [SerializeField] private CustomerPreset[] monsterSets;
+    
+    
    
     void Start()
     {
@@ -25,27 +21,23 @@ public class CustomerSpawner : MonoBehaviour
 
     public void SpawnCustomer()
     {
-        height = Random.Range(-1.45f, 1.13f);
-        float monsterChance = Random.Range(0, 101);
-        IDData idData = new IDData(eyeColors[Random.Range(0,eyeColors.Length)], 
-            hairColors[Random.Range(0,hairColors.Length)], 
-            skinColors[Random.Range(0,skinColors.Length)], names[Random.Range(0,names.Length)], height
-        );
-
-        TrueAppearanceData trueAppearanceData = new TrueAppearanceData(idData);
+        int randomNumber = Random.Range(0, 101);
         
-       GameObject customer = Instantiate(customerPrefab, transform.position, customerPrefab.transform.rotation);
-
-        if (monsterChance <= 45f)
-        { 
-            trueAppearanceData.ApplyMonsterTraitOverrides(monsterDatas[0]);
-            customer.GetComponent<Customer>().InitializeCustomer(idData,trueAppearanceData,monsterDatas[0]);
+        if (randomNumber <= 45)
+        {
+            CustomerPreset monsterPreset = monsterSets[Random.Range(0, monsterSets.Length)];
+            GameObject customer = Instantiate(
+                monsterPreset.customerPrefab, transform.position,
+                monsterPreset.customerPrefab.transform.rotation);
+            customer.GetComponent<Customer>().InitializeCustomer(monsterPreset);
         }
         else
         {
-            customer.GetComponent<Customer>().InitializeCustomer(idData,trueAppearanceData, null);
+            CustomerPreset normalCustomerPreset = customerSets[Random.Range(0, customerSets.Length)];
+            GameObject customer = Instantiate(
+                normalCustomerPreset.customerPrefab, transform.position,
+                normalCustomerPreset.customerPrefab.transform.rotation);
+            customer.GetComponent<Customer>().InitializeCustomer(normalCustomerPreset);
         }
-        
-       
     }
 }

@@ -2,35 +2,18 @@ using UnityEngine;
 
 public class Customer : MonoBehaviour
 {
-    [SerializeField] private bool _isMonster;
-
-    public bool IsMonster => _isMonster;
+    private CustomerPreset _preset;
     
-    private IDData _idData;
+    public CustomerPreset Preset => _preset;
     
-    public IDData IDData => _idData;
+    public bool IsMonster => _preset.isMonster;
     
-    private TrueAppearanceData _appearanceData;
-    
-    public TrueAppearanceData AppearanceData => _appearanceData;
-
-   public Material customerBodyMaterial;
-    
-    
-    
-    public void InitializeCustomer(IDData idData, TrueAppearanceData appearanceData,  MonsterData monsterData)
+    public void InitializeCustomer(CustomerPreset preset)
     {
-       _idData = idData;
-       _appearanceData = appearanceData;
-       _isMonster = monsterData != null;
-       
-       CreateCustomerVisuals(appearanceData,monsterData);
+        _preset = _preset;
     }
 
-    private void CreateCustomerVisuals(TrueAppearanceData appearanceData, MonsterData monsterData)
-    {
-        customerBodyMaterial.color = appearanceData.SkinColor;
-    }
+   
 
 
 }
