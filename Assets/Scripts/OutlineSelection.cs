@@ -6,6 +6,8 @@ public class OutlineSelection : MonoBehaviour
     private Transform highlight;
     private Transform selection;
     private RaycastHit raycastHit;
+
+    public GameManager gameManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -57,6 +59,11 @@ public class OutlineSelection : MonoBehaviour
                 selection = raycastHit.transform;
                 selection.gameObject.GetComponent<Outline>().enabled = true;
                 highlight = null;
+
+                if(selection.gameObject.name == "SecurityButton")
+                {
+                    gameManager.OnBigRedButtonPressed();
+                }
 
                 Cup cup = selection.GetComponent<Cup>();
 
