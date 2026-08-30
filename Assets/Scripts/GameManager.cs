@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
     private int _customersServed = 0;
     private Customer _currentCustomer;
 
+    private void Start()
+    {
+        SetCurrentCustomer(spawner.SpawnCustomer());
+    }
     public void SetCurrentCustomer(Customer customer)
     {
         _currentCustomer = customer;
@@ -26,8 +30,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void OnServerDrink(bool recipeCorrect)
+    public void OnServerDrink(Cup cup)
     {
+        bool recipeCorrect = DrinkComparison.IsCorrectDrink(cup, _currentCustomer.Recipe);
+        
         if (_currentCustomer.IsMonster)
         {
             Debug.Log("You served a monster!");
