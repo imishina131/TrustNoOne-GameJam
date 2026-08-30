@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkcreation\\bottleinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outlineselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\drinkcreation\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drinkcreation\\ingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,24 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-30T05:01:05.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MONSTERRecipe05.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe05.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe05.cs",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MONSTERRecipe04.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe04.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe04.cs",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MONSTERRecipe03.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe03.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe03.cs",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MONSTERRecipe02.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe02.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe02.cs",
@@ -164,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MONSTERRecipe01.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe01.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\MONSTERRecipe01.cs",
@@ -177,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Recipe05.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe05.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe05.cs",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Recipe04.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe04.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe04.cs",
@@ -203,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Recipe03.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe03.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe03.cs",
@@ -216,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Recipe02.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe02.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe02.cs",
@@ -229,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Recipe01.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe01.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Recipes\\Recipe01.cs",
@@ -242,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CupType.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\CupType.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\CupType.cs",
@@ -259,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Cup.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Cup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Cup.cs",
@@ -272,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DrinkMaker.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
@@ -285,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BottleInteractable.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
@@ -298,13 +298,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "OutlineSelection.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OutlineSelection.cs",
               "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs",
               "RelativeToolTip": "Assets\\Scripts\\OutlineSelection.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwEcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-24T18:38:01.167Z",
               "EditorCaption": ""
