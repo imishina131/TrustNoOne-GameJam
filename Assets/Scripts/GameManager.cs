@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        SetCurrentCustomer(spawner.SpawnCustomer());
+        //SetCurrentCustomer(spawner.SpawnCustomer());
     }
     public void SetCurrentCustomer(Customer customer)
     {
