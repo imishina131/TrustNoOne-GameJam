@@ -18,7 +18,7 @@ public class CustomerSpawner : MonoBehaviour
             CustomerPreset monsterPreset = monsterSets[Random.Range(0, monsterSets.Length)];
              customer = Instantiate(
                 monsterPreset.customerPrefab, transform.position,
-                monsterPreset.customerPrefab.transform.rotation);
+                transform.rotation);
             customer.GetComponent<Customer>().InitializeCustomer(monsterPreset, monsterRecipes[Random.Range(0,monsterRecipes.Length)]);
         }
         else
@@ -26,7 +26,7 @@ public class CustomerSpawner : MonoBehaviour
             CustomerPreset normalCustomerPreset = customerSets[Random.Range(0, customerSets.Length)];
              customer = Instantiate(
                 normalCustomerPreset.customerPrefab, transform.position,
-                normalCustomerPreset.customerPrefab.transform.rotation);
+                transform.rotation);
             customer.GetComponent<Customer>().InitializeCustomer(normalCustomerPreset, normalRecipes[Random.Range(0,normalRecipes.Length)]);
         }
         return customer.GetComponent<Customer>();
