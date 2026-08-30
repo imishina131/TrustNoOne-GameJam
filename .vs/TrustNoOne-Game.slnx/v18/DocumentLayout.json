@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\trustnoone-gamejam\\trustnoone-game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,19 +55,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:32:41.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\Customer\\Customer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Customer\\Customer.cs",
+              "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\Customer\\Customer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Customer\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:21:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAUwGUAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-30T05:01:05.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Ingredients.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Ingredients.cs",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CupType.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\CupType.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\CupType.cs",
@@ -89,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Cup.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\Cup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\Cup.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DrinkMaker.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\DrinkMaker.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BottleInteractable.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DrinkCreation\\BottleInteractable.cs",
@@ -128,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "OutlineSelection.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\OutlineSelection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OutlineSelection.cs",
@@ -141,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SceneNav.cs",
               "DocumentMoniker": "D:\\TrustNoOne-GameJam\\TrustNoOne-Game\\Assets\\Scripts\\Menus\\SceneNav.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\SceneNav.cs",
