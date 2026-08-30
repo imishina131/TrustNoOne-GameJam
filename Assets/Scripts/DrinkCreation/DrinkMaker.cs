@@ -66,7 +66,8 @@ public class DrinkMaker : MonoBehaviour
 
     public void RestartDrink()
     {
-        outline.cup = null;
+        selectedCup.ingredients.Clear();
+        selectedCup.liquidAmountInCup = 0f;
         selectedCup = null;
         isSelected = false;
         martiniCup.SetActive(false);

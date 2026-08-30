@@ -71,6 +71,7 @@ public class OutlineSelection : MonoBehaviour
 
                 BottleInteractable bottle = selection.GetComponent<BottleInteractable>();
 
+
                 if (cup != null)
                 {
                     DrinkMaker.Instance.SelectCup(cup);

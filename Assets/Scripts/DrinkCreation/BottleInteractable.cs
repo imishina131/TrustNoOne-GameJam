@@ -67,10 +67,13 @@ public class BottleInteractable : MonoBehaviour
 
     public void Pour()
     {
-        if(drinkMaker.selectedCup.liquidAmountInCup <= (drinkMaker.selectedCup.maxLiquid))
+        if(drinkMaker.selectedCup != null)
         {
-            isMoving = true;
-            DrinkMaker.Instance.PourLiquid(ingredient, amountOZ);
+            if (drinkMaker.selectedCup.liquidAmountInCup <= (drinkMaker.selectedCup.maxLiquid))
+            {
+                isMoving = true;
+                DrinkMaker.Instance.PourLiquid(ingredient, amountOZ);
+            }
         }
     }
 }

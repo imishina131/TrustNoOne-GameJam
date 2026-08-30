@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject glass01;
     [SerializeField] GameObject glass02;
     [SerializeField] GameObject glass03;
+    [SerializeField] GameObject winText;
 
     public DrinkMaker drinkMaker;
 
@@ -69,6 +70,8 @@ public class GameManager : MonoBehaviour
             NextCustomer();
         }
 
+        drinkMaker.selectedCup.ingredients.Clear();
+        drinkMaker.selectedCup.liquidAmountInCup = 0f;
         drinkMaker.isSelected = false;
         glass01.SetActive(false);
         glass02.SetActive(false);
@@ -96,19 +99,25 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Over");
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Lose");
     }
 
     private void WinGame()
     {
         Debug.Log("Win Game");
-        
-        SceneManager.LoadScene(0);
+        winText.SetActive(true);
+
+        Invoke("LoadCredits", 5f);
     }
 
     public void Serve()
     {
         anim.SetTrigger("Make");
         StartCoroutine(OnServerDrink(drinkMaker.selectedCup));
+    }
+
+    void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
     }
 }
