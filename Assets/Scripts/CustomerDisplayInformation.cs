@@ -21,7 +21,7 @@ public class CustomerDisplayInformation : MonoBehaviour
         
         foreach (var ingredient in customer.Recipe.requiredIngredients)
         {
-            order.AppendLine($"Ingredient: {ingredient.ingredient}oz");
+            order.AppendLine($"Ingredient: {ingredient.ingredient} {ingredient.amount} oz");
         }
         orderText.text = order.ToString();
 

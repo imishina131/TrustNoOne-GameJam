@@ -84,8 +84,8 @@ public class GameManager : MonoBehaviour
             WinGame();
             return;
         }
-        _currentCustomer = spawner.SpawnCustomer();
         
+        SetCurrentCustomer(spawner.SpawnCustomer());
     }
 
     private void GameOver()
