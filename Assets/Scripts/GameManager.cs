@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VectorGraphics; 
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -93,15 +95,15 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         Debug.Log("Game Over");
-        
-        //Load new scene
+
+        SceneManager.LoadScene(3);
     }
 
     private void WinGame()
     {
         Debug.Log("Win Game");
         
-        //Load new scene
+        SceneManager.LoadScene(0);
     }
 
     public void Serve()
